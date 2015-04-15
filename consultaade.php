@@ -1,5 +1,5 @@
 <?php
-include('conex.php');
+include('http://192.168.1.200/uned/conex.php');
 
 $dia=$_POST['dia'];
 $query = "SELECT * FROM tutorias WHERE curso='ade' AND dia='$dia' ORDER BY ano";
