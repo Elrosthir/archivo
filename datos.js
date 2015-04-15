@@ -1,11 +1,6 @@
-$(document).on("ready",ini);
+$( document ).on('ready',ini);
 function ini(){
-	$("#enviar").on("click",consultarTutorias);    
-}
-
-function consultarTutorias(){
-	cc = $("#dia").val();
-	traerDatos();
+	$("#enviar").on("click",traerDatos);    
 }
 
 function traerDatos(){
